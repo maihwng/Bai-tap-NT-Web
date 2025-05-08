@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  
+  .search-box input {
+    padding: 5px;
+  }
+  .search-box button {
+    padding: 6px 10px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .add-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  .edit {
+    background-color: gold;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .delete {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Modal (New Employee Form) */
+  .modal {
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: white;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  .modal-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .modal-body input, .modal-body select {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  .gender {
+    display: flex;
+    gap: 20px;
+  }
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .save {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+  }
+  .cancel {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+  }
+  
